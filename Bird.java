@@ -1,6 +1,7 @@
 public class Bird{
 	public static void main(String[] args){
-		{System.out.println("Feathers");
+		new Bird();
+		{System.out.println("Feathers");}
 	}
-	{System.out.println("snow")}
+	{System.out.println("new bird created");}
 }
