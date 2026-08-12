@@ -28,6 +28,15 @@ public class ComplementNegationOperators {
         System.out.println(++parkAttendance); // 1 (increase value by 1 then returns new value
         System.out.println(parkAttendance++); // 1 (increases value by 1 then returns original value
         System.out.println(parkAttendance); // 2 cuz previous line increased it by 1 new value is 2
-        
+
+        //Binary arithmetic operators
+
+        /*
+            a + b (adds two numeric values)
+            c - d (subtracts two numeric values)
+            e * f (multiplies two numeric values)
+            g / h (divides two numeric values)
+            i % j (returns the remainder after division of one numeric value by another)
+         */
     }
 }
