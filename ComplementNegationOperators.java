@@ -38,5 +38,10 @@ public class ComplementNegationOperators {
             g / h (divides two numeric values)
             i % j (returns the remainder after division of one numeric value by another)
          */
+
+        // changing the order of the operation
+
+        int price = 2 * ((5 + 3) * 4 - 8);
+        System.out.println(price); // 48
     }
 }
