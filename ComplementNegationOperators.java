@@ -43,5 +43,9 @@ public class ComplementNegationOperators {
 
         int price = 2 * ((5 + 3) * 4 - 8);
         System.out.println(price); // 48
+
+        //Division and Modulus Operators
+        System.out.println(9 / 3);// 3
+        System.out.println(9 % 3);// 0
     }
 }
