@@ -10,5 +10,12 @@
 			int castedSmallerNumber = (int) smallerNumber;
 			System.out.println(bigNumber);
 			System.out.println(castedSmallerNumber);
+			
+			//casting a short cuz java promotes short to int when applying arithmetic opperator
+			
+			short mouse = 10;
+			short hamster = 3;
+			short capybara = (short)(mouse * hamster);
+			System.out.println(capybara);
 		}
 	}
