@@ -17,5 +17,8 @@
 			short hamster = 3;
 			short capybara = (short)(mouse * hamster);
 			System.out.println(capybara);
+			// casting multiple stuff
+			short rat = (short)(1 + (mouse *hamster));
+			System.out.println(rat);
 		}
 	}
