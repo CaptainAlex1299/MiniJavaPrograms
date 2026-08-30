@@ -18,5 +18,12 @@ public class CompoundOpperators{
 		int sheep = 5;
 		sheep *= goat;
 		System.out.println(sheep);
+		
+		// Return Value of Assignment opperators
+		
+		long wolf = 5;
+		long coyote = (wolf = 3);
+		System.out.println(wolf);//3
+		System.out.println(coyote);//3
 	}
 }
