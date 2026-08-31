@@ -23,7 +23,12 @@ public class CompoundOpperators{
 		
 		long wolf = 5;
 		long coyote = (wolf = 3);
-		System.out.println(wolf);//3
-		System.out.println(coyote);//3
+		System.out.println(wolf); //3
+		System.out.println(coyote); //3
+		
+		boolean healthy = false;
+		if(healthy = true){
+			System.out.println("Good!");
+		} // here if statement is assigning true to healthy, two "==" are required to check to check if healthy is true, only 1 "=" assigns the value
 	}
 }
