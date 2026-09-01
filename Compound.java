@@ -20,7 +20,6 @@ public class CompoundOpperators{
 		System.out.println(sheep);
 		
 		// Return Value of Assignment opperators
-		
 		long wolf = 5;
 		long coyote = (wolf = 3);
 		System.out.println(wolf); //3
@@ -30,5 +29,10 @@ public class CompoundOpperators{
 		if(healthy = true){
 			System.out.println("Good!");
 		} // here if statement is assigning true to healthy, two "==" are required to check to check if healthy is true, only 1 "=" assigns the value
+		
+		//We can assign polar's value by setting bear's value to true in "()"
+		Boolean bear = false;
+		boolean polar = (bear = true);
+		System.out.println(polar);
 	}
 }
