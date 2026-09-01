@@ -1,3 +1,4 @@
+import java.io.File;
 public class CompoundOpperators{
 	
 	public static void main(String[] args){
@@ -34,5 +35,12 @@ public class CompoundOpperators{
 		Boolean bear = false;
 		boolean polar = (bear = true);
 		System.out.println(polar);
+		
+		// object comparison only gives true if both point to saim object or both is null
+		File monday = new File("Schedule.txt");
+		File tuesday = new File("Schedule.txt");
+		File wednesday = tuesday;
+		System.out.println(monday == tuesday); //false
+		System.out.println(tuesday == wednesday); //true
 	}
 }
