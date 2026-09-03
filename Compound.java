@@ -42,5 +42,10 @@ public class CompoundOpperators{
 		File wednesday = tuesday;
 		System.out.println(monday == tuesday); //false
 		System.out.println(tuesday == wednesday); //true
+		
+		String thisIsWord = "word";
+			Object notString = new File ("string.txt");
+			System.out.println(notString instanceof String); // cant compare these 2 unless the var is (Object) 1 line before is example
+		
 	}
 }
